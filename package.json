@@ -1,0 +1,51 @@
+{
+  "name": "gridsome-remark-video",
+  "version": "0.0.1",
+  "description": "Embed video tag in your Gridsome project. Based on gatsby-remark-video",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.js",
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm && npm run build:umd",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:umd": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jurooravec/gridsome-remark-video.git"
+  },
+  "files": [
+    "lib",
+    "esm",
+    "umd"
+  ],
+  "keywords": [
+    "gridsome",
+    "remark",
+    "video"
+  ],
+  "author": "Juro Oravec <juraj.oravec.josefson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jurooravec/gridsome-remark-video/issues"
+  },
+  "homepage": "https://github.com/jurooravec/gridsome-remark-video#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0",
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^4.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "gatsby-remark-video": "^1.2.5"
+  }
+}
