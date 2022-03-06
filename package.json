@@ -1,6 +1,6 @@
 {
   "name": "gridsome-remark-video",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Embed video tag in your Gridsome project. Based on gatsby-remark-video",
   "main": "lib/index.js",
   "module": "esm/index.js",
