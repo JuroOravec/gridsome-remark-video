@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "umd"),
     filename: "gridsome-remark-video.js",
-    library: "MyTsPackage",
+    library: "GridsomeRemarkVideo",
     libraryTarget: "umd"
   },
   module: {
